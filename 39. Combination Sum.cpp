@@ -8,7 +8,7 @@ public:
          ans.push_back(v);
          return;
      }
-     if(target > arr[i])
+     if(target >= arr[i])
      {
          v.push_back(arr[i]);
          solve(i, v, ans, target-arr[i], arr);
